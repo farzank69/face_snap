@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/face_snap/static/css/main.75162a15.css",
+    "main.css": "/face_snap/static/css/main.84490965.css",
     "main.js": "/face_snap/static/js/main.907d5925.js",
     "index.html": "/face_snap/index.html",
-    "main.75162a15.css.map": "/face_snap/static/css/main.75162a15.css.map",
+    "main.84490965.css.map": "/face_snap/static/css/main.84490965.css.map",
     "main.907d5925.js.map": "/face_snap/static/js/main.907d5925.js.map"
   },
   "entrypoints": [
-    "static/css/main.75162a15.css",
+    "static/css/main.84490965.css",
     "static/js/main.907d5925.js"
   ]
 }
