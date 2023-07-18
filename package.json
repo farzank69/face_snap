@@ -1,6 +1,7 @@
 {
-  "name": "facerecognitionbrain",
+  "name": "face-snap",
   "version": "0.1.0",
+  "homepage": "https://farzank69.github.io/face_snap/",
   "private": true,
   "dependencies": {
     "particles-bg": "^2.5.5",
@@ -14,8 +15,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
+    },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -27,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
