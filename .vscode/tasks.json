@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "face-snap-server",
+			"problemMatcher": [],
+			"label": "npm: start - face-snap-server",
+			"detail": "nodemon server.js"
+		}
+	]
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import Particles from 'react-particles-js';
-import ParticlesBg from 'particles-bg'
+import ParticlesBg from 'particles-bg';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import Navigation from './components/Navigation/Navigation';
 import Signin from './components/Signin/Signin';
@@ -14,8 +14,8 @@ const initialState = {
   input: '',
   imageUrl: '',
   box: {},
-  route: 'home',
-  isSignedIn: true,
+  route: 'signin',
+  isSignedIn: false,
   user: {
     id: '',
     name: '',
